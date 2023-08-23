@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Bai+Jamjuree:wght@400;600&family=Cairo:wght@200;700;800;900;1000&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Josefin+Sans&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Nunito:wght@300;400;600;700;900&family=Open+Sans&family=Outfit:wght@400;700&family=Poppins:wght@200;400;600&family=Raleway:wght@100;200;300;400;500;600&family=Red+Hat+Display:wght@500;700;900&family=Roboto&family=Work+Sans:ital,wght@0,100;0,200;0,400;0,500;0,700;0,800;1,200;1,600;1,800&display=swap');
+
+body {
+    font-family: 'Almarai', sans-serif;
+    direction: rtl;
+    margin-bottom: 20px;
+}
+
+#header {
+    height: 20rem;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 80%);
+    border-bottom: solid 20px #5b0d25;
+    position: relative;
+    color: white;
+}
+
+.bg-primary {
+    background: #811538 !important;
+    color: white;
+}
+
+.bg-success {
+    background: #5b0d25 !important;
+    color: white;
+}
+
+#header-bg {
+    background-image: url("../images/pattern.png");
+    width: 100%;
+    height: 100%;
+}
+
+.logo-holder {
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    z-index: 999;
+    -webkit-filter: drop-shadow(5px 5px 50px #222);
+    filter: drop-shadow(5px 5px 50px #222);
+}
+
+.logo {
+    height: 300px;
+}
+
+.main-text {
+    margin-right: 100px;
+}
+
+.main-text h1 {
+    font-weight: 800;
+}
+
+.main-text h1:nth-child(1) {
+    font-size: 70px;
+}
+
+.main-text h1:nth-child(2) {
+    font-size: 90px;
+}
+
+.QW-word {
+    margin-top: 20px;
+}
+
+.QW-word>img {
+    width: 350px;
+}
+
+.main-content-holder {
+    margin-top: 70px;
+}
+
+.container .row-all{
+    direction: ltr;
+}
+
+.country-row img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto; 
+    margin-top: 5px; 
+}
+
+
+.country-row h5{
+    margin-left: 5px;
+    margin-top: 7px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.matches_img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.team{
+    border-radius: 30px 0px 0px 30px;
+}
+.opposite-team{
+    border-radius: 0px 30px 30px 0px;
+}

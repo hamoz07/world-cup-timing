@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Cup</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/world-cup.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- logo -->
+    <div class="logo-holder">
+        <img src="./images/logo.png" class="logo" alt="world-cup logo">
+    </div>
+    <!--/ logo /-->
+    <!-- Header -->
+    <div id="header" class="bg-primary">
+        <div id="header-bg">
+            <div class="main-text p-5">
+                <h1>كأس</h1>
+                <h1>العالم</h1>
+            </div>
+        </div>
+    </div>
+    <!-- / Header / -->
+    <!-- QATAR WORD -->
+    <div class="QW-word d-flex justify-content-center">
+        <img src="images/qatar-word.png" alt="Qatar Word">
+    </div>
+    <!--  / QATAR WORD /  -->
+    <!-- main content -->
+    <div class="container main-content-holder">
+        <!-- standings -->
+        <div class="content p-5 mt-1">
+            <!-- standings title -->
+            <div class="row">
+                <h1><b>المجموعات</b></h1>
+                <hr>
+            </div>
+            <!-- / standings title / -->
+            <!-- standings  -->
+            <div class="row row-all" id="allStandings">
+                <div class="col-sm-6 mb-4">
+                    <div class="card shadow border-0">
+                        <div class="card-header bg-primary text-center">
+                            <b>Group (A)</b>
+                        </div>
+                        <div class="row bg-success m-0">
+                            <div class="col-sm-4 text-center">team</div>
+                            <div class="col-sm-2 text-center">W</div>
+                            <div class="col-sm-2 text-center">L</div>
+                            <div class="col-sm-2 text-center">D</div>
+                            <div class="col-sm-2 text-center">Pts</div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <div class="row m-0 country-row">
+                                    <div class="col-sm-4 text-center d-flex justify-content-center align-items-center">
+                                        <span>
+                                            <img class="rounded-circle"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                                alt="Egypt flag">
+                                        </span>
+                                        <h5>Eg</h5>
+                                    </div>
+                                    <div class="col-sm-2 text-center">W</div>
+                                    <div class="col-sm-2 text-center">L</div>
+                                    <div class="col-sm-2 text-center">D</div>
+                                    <div class="col-sm-2 text-center"><b>Pts</b></div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="row m-0 country-row">
+                                    <div class="col-sm-4 text-center d-flex justify-content-center align-items-center">
+                                        <span>
+                                            <img class="rounded-circle"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                                alt="Egypt flag">
+                                        </span>
+                                        <h5>Eg</h5>
+                                    </div>
+                                    <div class="col-sm-2 text-center">W</div>
+                                    <div class="col-sm-2 text-center">L</div>
+                                    <div class="col-sm-2 text-center">D</div>
+                                    <div class="col-sm-2 text-center"><b>Pts</b></div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="row m-0 country-row">
+                                    <div class="col-sm-4 text-center d-flex justify-content-center align-items-center">
+                                        <span>
+                                            <img class="rounded-circle"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                                alt="Egypt flag">
+                                        </span>
+                                        <h5>Eg</h5>
+                                    </div>
+                                    <div class="col-sm-2 text-center">W</div>
+                                    <div class="col-sm-2 text-center">L</div>
+                                    <div class="col-sm-2 text-center">D</div>
+                                    <div class="col-sm-2 text-center"><b>Pts</b></div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="row m-0 country-row">
+                                    <div class="col-sm-4 text-center d-flex justify-content-center align-items-center">
+                                        <span>
+                                            <img class="rounded-circle"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                                alt="Egypt flag">
+                                        </span>
+                                        <h5>Eg</h5>
+                                    </div>
+                                    <div class="col-sm-2 text-center">W</div>
+                                    <div class="col-sm-2 text-center">L</div>
+                                    <div class="col-sm-2 text-center">D</div>
+                                    <div class="col-sm-2 text-center"><b>Pts</b></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 mb-4">
+                    <div class="card shadow border-0">
+                        <div class="card-header bg-primary text-center">
+                            <b>Group (A)</b>
+                        </div>
+                        <div class="row bg-success m-0">
+                            <div class="col-sm-4 text-center">team</div>
+                            <div class="col-sm-2 text-center">W</div>
+                            <div class="col-sm-2 text-center">L</div>
+                            <div class="col-sm-2 text-center">D</div>
+                            <div class="col-sm-2 text-center">Pts</div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <div class="row m-0 country-row">
+                                    <div class="col-sm-4 text-center d-flex justify-content-center align-items-center">
+                                        <span>
+                                            <img class="rounded-circle"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                                alt="Egypt flag">
+                                        </span>
+                                        <h5>Eg</h5>
+                                    </div>
+                                    <div class="col-sm-2 text-center">W</div>
+                                    <div class="col-sm-2 text-center">L</div>
+                                    <div class="col-sm-2 text-center">D</div>
+                                    <div class="col-sm-2 text-center"><b>Pts</b></div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="row m-0 country-row">
+                                    <div class="col-sm-4 text-center d-flex justify-content-center align-items-center">
+                                        <span>
+                                            <img class="rounded-circle"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                                alt="Egypt flag">
+                                        </span>
+                                        <h5>Eg</h5>
+                                    </div>
+                                    <div class="col-sm-2 text-center">W</div>
+                                    <div class="col-sm-2 text-center">L</div>
+                                    <div class="col-sm-2 text-center">D</div>
+                                    <div class="col-sm-2 text-center"><b>Pts</b></div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="row m-0 country-row">
+                                    <div class="col-sm-4 text-center d-flex justify-content-center align-items-center">
+                                        <span>
+                                            <img class="rounded-circle"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                                alt="Egypt flag">
+                                        </span>
+                                        <h5>Eg</h5>
+                                    </div>
+                                    <div class="col-sm-2 text-center">W</div>
+                                    <div class="col-sm-2 text-center">L</div>
+                                    <div class="col-sm-2 text-center">D</div>
+                                    <div class="col-sm-2 text-center"><b>Pts</b></div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="row m-0 country-row">
+                                    <div class="col-sm-4 text-center d-flex justify-content-center align-items-center">
+                                        <span>
+                                            <img class="rounded-circle"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                                alt="Egypt flag">
+                                        </span>
+                                        <h5>Eg</h5>
+                                    </div>
+                                    <div class="col-sm-2 text-center">W</div>
+                                    <div class="col-sm-2 text-center">L</div>
+                                    <div class="col-sm-2 text-center">D</div>
+                                    <div class="col-sm-2 text-center"><b>Pts</b></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 mb-4">
+                    <div class="card shadow border-0">
+                        <div class="card-header bg-primary text-center">
+                            <b>Group (A)</b>
+                        </div>
+                        <div class="row bg-success m-0">
+                            <div class="col-sm-4 text-center">team</div>
+                            <div class="col-sm-2 text-center">W</div>
+                            <div class="col-sm-2 text-center">L</div>
+                            <div class="col-sm-2 text-center">D</div>
+                            <div class="col-sm-2 text-center">Pts</div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <div class="row m-0 country-row">
+                                    <div class="col-sm-4 text-center d-flex justify-content-center align-items-center">
+                                        <span>
+                                            <img class="rounded-circle"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                                alt="Egypt flag">
+                                        </span>
+                                        <h5>Eg</h5>
+                                    </div>
+                                    <div class="col-sm-2 text-center">W</div>
+                                    <div class="col-sm-2 text-center">L</div>
+                                    <div class="col-sm-2 text-center">D</div>
+                                    <div class="col-sm-2 text-center"><b>Pts</b></div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="row m-0 country-row">
+                                    <div class="col-sm-4 text-center d-flex justify-content-center align-items-center">
+                                        <span>
+                                            <img class="rounded-circle"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                                alt="Egypt flag">
+                                        </span>
+                                        <h5>Eg</h5>
+                                    </div>
+                                    <div class="col-sm-2 text-center">W</div>
+                                    <div class="col-sm-2 text-center">L</div>
+                                    <div class="col-sm-2 text-center">D</div>
+                                    <div class="col-sm-2 text-center"><b>Pts</b></div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="row m-0 country-row">
+                                    <div class="col-sm-4 text-center d-flex justify-content-center align-items-center">
+                                        <span>
+                                            <img class="rounded-circle"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                                alt="Egypt flag">
+                                        </span>
+                                        <h5>Eg</h5>
+                                    </div>
+                                    <div class="col-sm-2 text-center">W</div>
+                                    <div class="col-sm-2 text-center">L</div>
+                                    <div class="col-sm-2 text-center">D</div>
+                                    <div class="col-sm-2 text-center"><b>Pts</b></div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="row m-0 country-row">
+                                    <div class="col-sm-4 text-center d-flex justify-content-center align-items-center">
+                                        <span>
+                                            <img class="rounded-circle"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                                alt="Egypt flag">
+                                        </span>
+                                        <h5>Eg</h5>
+                                    </div>
+                                    <div class="col-sm-2 text-center">W</div>
+                                    <div class="col-sm-2 text-center">L</div>
+                                    <div class="col-sm-2 text-center">D</div>
+                                    <div class="col-sm-2 text-center"><b>Pts</b></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 mb-4">
+                    <div class="card shadow border-0">
+                        <div class="card-header bg-primary text-center">
+                            <b>Group (A)</b>
+                        </div>
+                        <div class="row bg-success m-0">
+                            <div class="col-sm-4 text-center">team</div>
+                            <div class="col-sm-2 text-center">W</div>
+                            <div class="col-sm-2 text-center">L</div>
+                            <div class="col-sm-2 text-center">D</div>
+                            <div class="col-sm-2 text-center">Pts</div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <div class="row m-0 country-row">
+                                    <div class="col-sm-4 text-center d-flex justify-content-center align-items-center">
+                                        <span>
+                                            <img class="rounded-circle"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                                alt="Egypt flag">
+                                        </span>
+                                        <h5>Eg</h5>
+                                    </div>
+                                    <div class="col-sm-2 text-center">W</div>
+                                    <div class="col-sm-2 text-center">L</div>
+                                    <div class="col-sm-2 text-center">D</div>
+                                    <div class="col-sm-2 text-center"><b>Pts</b></div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="row m-0 country-row">
+                                    <div class="col-sm-4 text-center d-flex justify-content-center align-items-center">
+                                        <span>
+                                            <img class="rounded-circle"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                                alt="Egypt flag">
+                                        </span>
+                                        <h5>Eg</h5>
+                                    </div>
+                                    <div class="col-sm-2 text-center">W</div>
+                                    <div class="col-sm-2 text-center">L</div>
+                                    <div class="col-sm-2 text-center">D</div>
+                                    <div class="col-sm-2 text-center"><b>Pts</b></div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="row m-0 country-row">
+                                    <div class="col-sm-4 text-center d-flex justify-content-center align-items-center">
+                                        <span>
+                                            <img class="rounded-circle"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                                alt="Egypt flag">
+                                        </span>
+                                        <h5>Eg</h5>
+                                    </div>
+                                    <div class="col-sm-2 text-center">W</div>
+                                    <div class="col-sm-2 text-center">L</div>
+                                    <div class="col-sm-2 text-center">D</div>
+                                    <div class="col-sm-2 text-center"><b>Pts</b></div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="row m-0 country-row">
+                                    <div class="col-sm-4 text-center d-flex justify-content-center align-items-center">
+                                        <span>
+                                            <img class="rounded-circle"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                                alt="Egypt flag">
+                                        </span>
+                                        <h5>Eg</h5>
+                                    </div>
+                                    <div class="col-sm-2 text-center">W</div>
+                                    <div class="col-sm-2 text-center">L</div>
+                                    <div class="col-sm-2 text-center">D</div>
+                                    <div class="col-sm-2 text-center"><b>Pts</b></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 mb-4">
+                    <div class="card shadow border-0">
+                        <div class="card-header bg-primary text-center">
+                            <b>Group (A)</b>
+                        </div>
+                        <div class="row bg-success m-0">
+                            <div class="col-sm-4 text-center">team</div>
+                            <div class="col-sm-2 text-center">W</div>
+                            <div class="col-sm-2 text-center">L</div>
+                            <div class="col-sm-2 text-center">D</div>
+                            <div class="col-sm-2 text-center">Pts</div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <div class="row m-0 country-row">
+                                    <div class="col-sm-4 text-center d-flex justify-content-center align-items-center">
+                                        <span>
+                                            <img class="rounded-circle"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                                alt="Egypt flag">
+                                        </span>
+                                        <h5>Eg</h5>
+                                    </div>
+                                    <div class="col-sm-2 text-center">W</div>
+                                    <div class="col-sm-2 text-center">L</div>
+                                    <div class="col-sm-2 text-center">D</div>
+                                    <div class="col-sm-2 text-center"><b>Pts</b></div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="row m-0 country-row">
+                                    <div class="col-sm-4 text-center d-flex justify-content-center align-items-center">
+                                        <span>
+                                            <img class="rounded-circle"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                                alt="Egypt flag">
+                                        </span>
+                                        <h5>Eg</h5>
+                                    </div>
+                                    <div class="col-sm-2 text-center">W</div>
+                                    <div class="col-sm-2 text-center">L</div>
+                                    <div class="col-sm-2 text-center">D</div>
+                                    <div class="col-sm-2 text-center"><b>Pts</b></div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="row m-0 country-row">
+                                    <div class="col-sm-4 text-center d-flex justify-content-center align-items-center">
+                                        <span>
+                                            <img class="rounded-circle"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                                alt="Egypt flag">
+                                        </span>
+                                        <h5>Eg</h5>
+                                    </div>
+                                    <div class="col-sm-2 text-center">W</div>
+                                    <div class="col-sm-2 text-center">L</div>
+                                    <div class="col-sm-2 text-center">D</div>
+                                    <div class="col-sm-2 text-center"><b>Pts</b></div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="row m-0 country-row">
+                                    <div class="col-sm-4 text-center d-flex justify-content-center align-items-center">
+                                        <span>
+                                            <img class="rounded-circle"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                                alt="Egypt flag">
+                                        </span>
+                                        <h5>Eg</h5>
+                                    </div>
+                                    <div class="col-sm-2 text-center">W</div>
+                                    <div class="col-sm-2 text-center">L</div>
+                                    <div class="col-sm-2 text-center">D</div>
+                                    <div class="col-sm-2 text-center"><b>Pts</b></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 mb-4">
+                    <div class="card shadow border-0">
+                        <div class="card-header bg-primary text-center">
+                            <b>Group (A)</b>
+                        </div>
+                        <div class="row bg-success m-0">
+                            <div class="col-sm-4 text-center">team</div>
+                            <div class="col-sm-2 text-center">W</div>
+                            <div class="col-sm-2 text-center">L</div>
+                            <div class="col-sm-2 text-center">D</div>
+                            <div class="col-sm-2 text-center">Pts</div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <div class="row m-0 country-row">
+                                    <div class="col-sm-4 text-center d-flex justify-content-center align-items-center">
+                                        <span>
+                                            <img class="rounded-circle"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                                alt="Egypt flag">
+                                        </span>
+                                        <h5>Eg</h5>
+                                    </div>
+                                    <div class="col-sm-2 text-center">W</div>
+                                    <div class="col-sm-2 text-center">L</div>
+                                    <div class="col-sm-2 text-center">D</div>
+                                    <div class="col-sm-2 text-center"><b>Pts</b></div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="row m-0 country-row">
+                                    <div class="col-sm-4 text-center d-flex justify-content-center align-items-center">
+                                        <span>
+                                            <img class="rounded-circle"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                                alt="Egypt flag">
+                                        </span>
+                                        <h5>Eg</h5>
+                                    </div>
+                                    <div class="col-sm-2 text-center">W</div>
+                                    <div class="col-sm-2 text-center">L</div>
+                                    <div class="col-sm-2 text-center">D</div>
+                                    <div class="col-sm-2 text-center"><b>Pts</b></div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="row m-0 country-row">
+                                    <div class="col-sm-4 text-center d-flex justify-content-center align-items-center">
+                                        <span>
+                                            <img class="rounded-circle"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                                alt="Egypt flag">
+                                        </span>
+                                        <h5>Eg</h5>
+                                    </div>
+                                    <div class="col-sm-2 text-center">W</div>
+                                    <div class="col-sm-2 text-center">L</div>
+                                    <div class="col-sm-2 text-center">D</div>
+                                    <div class="col-sm-2 text-center"><b>Pts</b></div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="row m-0 country-row">
+                                    <div class="col-sm-4 text-center d-flex justify-content-center align-items-center">
+                                        <span>
+                                            <img class="rounded-circle"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                                alt="Egypt flag">
+                                        </span>
+                                        <h5>Eg</h5>
+                                    </div>
+                                    <div class="col-sm-2 text-center">W</div>
+                                    <div class="col-sm-2 text-center">L</div>
+                                    <div class="col-sm-2 text-center">D</div>
+                                    <div class="col-sm-2 text-center"><b>Pts</b></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- / standings  / -->
+        </div>
+        <!--/ standings /-->
+        <!-- matches -->
+        <div class="mt-5">
+            <!-- matches title -->
+            <div class="row mb-2">
+                <h1><b>المباريات</b></h1>
+                <hr>
+            </div>
+            <!--/ matches title /-->
+            <!-- macthes row -->
+            <div class="row row-all" id="matches">  
+                <div class="col-sm-12 mt-3">
+                    <div class="card shadow rounded-pill overflow-hidden">
+                        <div class="card-body p-0">
+                            <div class="row ">
+                                <div class="col-sm-3 p-3 bg-primary">
+                                    <span>
+                                        <img class="rounded-circle matches_img"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                            alt="Egypt flag">
+                                    </span>
+                                    <h5 class="text-center mt-3">Eg</h5>
+                                </div>
+                                <div class="col-sm-6 d-flex justify-content-between align-items-center" style="padding: 0 30px ;">
+                                        <div class="text-center" style="font-size: 25px;"><b>0</b></div>
+                                        <div class="text-center ">
+                                            <div>
+                                                <b>Group (A)</b>
+                                            </div>
+                                            <b  style="font-size: 30px;">X</b>
+                                            <div class="DATE_TIME">2022/11/20 16:00</div>
+                                        </div>
+                                        <div class="text-center" style="font-size: 25px;"><b>0</b></div>
+                                </div>
+                                <div class="col-sm-3 bg-primary p-3">
+                                    <span>
+                                        <img class="rounded-circle matches_img"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LwuU3kJeQcxhLg9xiD-TePslVVQcSz3XQQ&usqp=CAU"
+                                            alt="Egypt flag">
+                                    </span>
+                                    <h5 class="text-center mt-3">Eg</h5>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/ macthes row /-->
+        </div>
+
+        <!--/ matches /-->
+    </div>
+    <!-- / main content / -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>   
+    <script src="js/world-cup.js"></script>
+</body>
+</html>
